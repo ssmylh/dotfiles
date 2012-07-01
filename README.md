@@ -3,3 +3,4 @@
 * Vim
 * Git
 * bash
+* sbt
