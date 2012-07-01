@@ -5,3 +5,4 @@ set softtabstop=0    " タブ押下時の空白数。0の場合はtabstopで設�
 set nobackup         " バックアップなし
 set nowrapscan       " 検索をファイルの先頭へループしない
 set visualbell t_vb= " ビープ音なし
+set clipboard=unnamed,autoselect " コピー/ペーストとビジュアルモードでOSのクリップボードを使用する

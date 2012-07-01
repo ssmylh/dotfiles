@@ -3,8 +3,6 @@ export JAVA_HOME
 
 export PATH=${JAVA_HOME}/bin:~/bin:$PATH
 
-export SBT_OPTS="-Dfile.encoding=UTF8 -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256m"
-
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/mvim
 export GIT_EDITOR="/Applications/MacVim.app/Contents/MacOS/mvim -f"
 alias mvim="/Applications/MacVim.app/Contents/MacOS/mvim"
