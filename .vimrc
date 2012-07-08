@@ -1,3 +1,6 @@
+" NeoBundle
+source ~/dotfiles/.vimrc.neobundle
+
 set expandtab        " タブを半角スペースで入力
 set tabstop=2        " タブサイズ
 set shiftwidth=2     " 自動インデント数
@@ -10,10 +13,5 @@ set nowrapscan       " 検索をファイルの先頭へループしない
 set visualbell t_vb= " ビープ音なし
 set clipboard=unnamed,autoselect " コピー/ペーストとビジュアルモードでOSのクリップボードを使用する
 
-" Haskell mode for Vim
-au Bufenter *.hs compiler ghc
-syntax on
-filetype plugin on
-let g:haddock_browser = "open"
-let g:haddock_browser_callformat = "%s %s"
-
+" Hadkell Mode
+source ~/dotfiles/.vimrc.haskell-mode

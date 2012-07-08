@@ -1,0 +1,7 @@
+" Haskell mode for Vim
+au Bufenter *.hs compiler ghc
+syntax on
+filetype plugin on
+let g:haddock_browser = "open"
+let g:haddock_browser_callformat = "%s %s"
+
