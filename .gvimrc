@@ -4,7 +4,6 @@ if has('gui_macvim')
   set imdisable        " IME OFF
   set guioptions-=T    " ツールバー非表示
   set antialias        " アンチエイリアス
-  set number           " 行番号表示
   set cursorline       " カーソル行をハイライト
   colorscheme desert   " カラースキーマ
   set columns=170      " 横幅
