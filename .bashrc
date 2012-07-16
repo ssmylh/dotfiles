@@ -1,4 +1,4 @@
-JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home
+JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_HOME
 
 export PATH=${JAVA_HOME}/bin:~/bin:$PATH
