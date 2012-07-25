@@ -5,8 +5,8 @@ if has('gui_macvim')
   set antialias        " アンチエイリアス
   set cursorline       " カーソル行をハイライト
   colorscheme desert   " カラースキーマ
-  set columns=170      " 横幅
-  set lines=40         " 行数
+  set columns=9999     " 横幅
+  set lines=9999       " 行数
 
 
   " フォント設定
