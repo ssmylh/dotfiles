@@ -7,7 +7,7 @@ if has('gui_macvim')
   colorscheme desert   " カラースキーマ
   set columns=9999     " 横幅
   set lines=9999       " 行数
-
+  set imdisable        " IME OFF   
 
   " フォント設定
   set guifontwide=Osaka:h14

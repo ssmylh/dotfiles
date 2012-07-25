@@ -2,7 +2,6 @@
 source ~/dotfiles/.vimrc.neobundle
 
 set nocompatible     " vi互換モードをOFF
-set imdisable        " IME OFF
 syntax on            " 色づけ
 set hlsearch         " 検索語を強調
 set number           " 行番号表示
