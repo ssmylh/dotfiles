@@ -11,6 +11,8 @@ NeoBundle 'AutoClose'
 NeoBundle 'JavaScript-syntax' " JavaScript syntax
 NeoBundle 'pangloss/vim-javascript' " Javascript indent
 NeoBundle 'git://github.com/lukerandall/haskellmode-vim.git' " haskell-mode
+NeoBundle 'git://github.com/jimenezrick/vimerl.git' "Vimerl
+NeoBundle 'thinca/vim-ref' "vim-ref
 
 filetype plugin on
 filetype indent on
