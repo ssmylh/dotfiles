@@ -24,6 +24,14 @@ set visualbell t_vb= " ビープ音なし
 set hlsearch         " 検索語を強調
 set nowrapscan       " 検索をファイルの先頭へループしない
 
+" insert modeでの移動
+inoremap <C-e> <END>
+inoremap <C-a> <HOME>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
+
 " 保存時に行末のスペースを削除
 autocmd BufWritePre * :%s/\s\+$//ge
 
