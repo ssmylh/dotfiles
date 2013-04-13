@@ -4,3 +4,4 @@
 * Git
 * bash
 * sbt
+* tmux
