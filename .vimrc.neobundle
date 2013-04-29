@@ -7,6 +7,7 @@ if has('vim_starting')
   call neobundle#rc(expand('~/dotfiles/.vim/bundle'))
 endif
 
+NeoBundle 'w0ng/vim-hybrid' " hybrid.vim
 NeoBundle 'AutoClose'
 NeoBundle 'JavaScript-syntax' " JavaScript syntax
 NeoBundle 'pangloss/vim-javascript' " Javascript indent

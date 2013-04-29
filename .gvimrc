@@ -4,13 +4,13 @@ if has('gui_macvim')
   set guioptions-=T    " ツールバー非表示
   set antialias        " アンチエイリアス
   set cursorline       " カーソル行をハイライト
-  colorscheme desert   " カラースキーマ
+  colorscheme hybrid   " カラースキーマ
   set columns=9999     " 横幅
   set lines=9999       " 行数
-  set imdisable        " IME OFF   
+  set imdisable        " IME OFF
 
   " フォント設定
   set guifontwide=Osaka:h14
   set guifont=Osaka-Mono:h16
-  
+
 endif
