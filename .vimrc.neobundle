@@ -7,13 +7,13 @@ if has('vim_starting')
   call neobundle#rc(expand('~/dotfiles/.vim/bundle'))
 endif
 
-NeoBundle 'w0ng/vim-hybrid' " hybrid.vim
+NeoBundle 'altercation/vim-colors-solarized' " vim-colors-solarized
 NeoBundle 'AutoClose'
 NeoBundle 'JavaScript-syntax' " JavaScript syntax
 NeoBundle 'pangloss/vim-javascript' " Javascript indent
 NeoBundle 'git://github.com/lukerandall/haskellmode-vim.git' " haskell-mode
-NeoBundle 'git://github.com/jimenezrick/vimerl.git' "Vimerl
-NeoBundle 'thinca/vim-ref' "vim-ref
+NeoBundle 'git://github.com/jimenezrick/vimerl.git' " Vimerl
+NeoBundle 'thinca/vim-ref' " vim-ref
 
 filetype plugin on
 filetype indent on
