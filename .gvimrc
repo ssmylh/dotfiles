@@ -4,6 +4,7 @@ if has('gui_macvim')
   set guioptions-=T    " ツールバー非表示
   set antialias        " アンチエイリアス
   set cursorline       " カーソル行をハイライト
+  set background=dark
   colorscheme solarized  " カラースキーマ
   set columns=9999     " 横幅
   set lines=9999       " 行数
