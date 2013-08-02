@@ -3,6 +3,12 @@ source ~/dotfiles/.vimrc.neobundle
 
 set nocompatible                 " vi互換モードをOFF
 
+colorscheme solarized            " カラースキーマ
+set background=dark
+
+set guifontwide=Osaka:h14        " フォント設定
+set guifont=Osaka-Mono:h16
+
 syntax on                        " 色づけ
 set number                       " 行番号表示
 set autoindent                   " オートインデント
@@ -14,6 +20,7 @@ set formatoptions=q              " 自動改行しない
 
 set laststatus=2                 " ステータスラインを常に表示
 set ruler                        " 画面最下行にルーラーを表示
+set cursorline                   " カーソル行をハイライト
 
 set nobackup                     " バックアップなし
 set autoread                     " 他で書き換えられたら自動で読み直す
