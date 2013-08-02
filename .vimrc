@@ -42,5 +42,11 @@ inoremap <C-l> <Right>
 " 保存時に行末のスペースを削除
 autocmd BufWritePre * :%s/\s\+$//ge
 
+" 保存時にタブをスペースに変換する
+autocmd BufWritePre * :%s/\t/  /ge
+
+" esc2回で検索ハイライトを消去する
+nmap <ESC><ESC> ;nohlsearch<CR><ESC>
+
 " Hadkell Mode
 source ~/dotfiles/.vimrc.haskell-mode
