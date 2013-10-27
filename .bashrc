@@ -1,12 +1,12 @@
 export PATH=/usr/local/bin:$PATH
-export PATH=~/bin:$PATH
+export PATH=$PATH:~/bin
 
 JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_HOME
-export PATH=${JAVA_HOME}/bin:$PATH
+export PATH=$PATH:${JAVA_HOME}/bin
 
 export SCALA_HOME=~/dev/scala/scala
-export PATH=${SCALA_HOME}/bin:$PATH
+export PATH=$PATH:${SCALA_HOME}/bin
 
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 
