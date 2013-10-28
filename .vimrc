@@ -12,6 +12,7 @@ set guifont=Osaka-Mono:h16
 syntax on                        " 色づけ
 set number                       " 行番号表示
 set autoindent                   " オートインデント
+set smartindent                  " スマートインデント
 set expandtab                    " タブを半角スペースで入力
 set tabstop=2                    " タブサイズ
 set shiftwidth=2                 " 自動インデント数
@@ -38,6 +39,8 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
+
+inoremap <C-Return> <CR><CR><C-o>k<Tab>
 
 " 保存時に行末のスペースを削除
 autocmd BufWritePre * :%s/\s\+$//ge
