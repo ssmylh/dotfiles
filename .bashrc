@@ -5,9 +5,6 @@ JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_HOME
 export PATH=$PATH:${JAVA_HOME}/bin
 
-export SCALA_HOME=~/dev/scala/scala
-export PATH=$PATH:${SCALA_HOME}/bin
-
 export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
