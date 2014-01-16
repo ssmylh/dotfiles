@@ -5,7 +5,7 @@ JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_HOME
 export PATH=$PATH:${JAVA_HOME}/bin
 
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
+export EDITOR='subl -w'
 
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
@@ -13,7 +13,7 @@ alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"
 alias mvim="/Applications/MacVim.app/Contents/MacOS/mvim"
 alias mvimdiff="/Applications/MacVim.app/Contents/MacOS/mvimdiff"
 
-export GIT_EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
+export GIT_EDITOR='subl -w'
 
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
