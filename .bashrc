@@ -26,3 +26,5 @@ if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
 fi
 
 export PYTHONSTARTUP=~/.pythonstartup
+
+export GOPATH=$HOME/works/go
