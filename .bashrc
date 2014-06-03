@@ -27,4 +27,8 @@ fi
 
 export PYTHONSTARTUP=~/.pythonstartup
 
-export GOPATH=$HOME/works/go
+if [ -x "`which go`" ]; then
+    export GOROOT=`go env GOROOT`
+    export GOPATH=$HOME/works/go
+    export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+fi
