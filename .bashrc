@@ -5,6 +5,8 @@ JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_HOME
 export PATH=$PATH:${JAVA_HOME}/bin
 
+export PATH=$PATH:$HOME/Library/Haskell/bin
+
 export EDITOR='subl -w'
 
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
