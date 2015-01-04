@@ -5,7 +5,7 @@ JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_HOME
 export PATH=$PATH:${JAVA_HOME}/bin
 
-export PATH=$PATH:$HOME/Library/Haskell/bin
+export PATH=$HOME/Library/Haskell/bin:$PATH
 
 export EDITOR='subl -w'
 
