@@ -4,4 +4,6 @@
 [color]
 	ui = auto
 [core]
-	excludesfile = /Users/ssmylh/.gitignore
+	excludesfile = ~/.gitignore
+[push]
+    default = simple
