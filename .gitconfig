@@ -13,3 +13,4 @@
     diff = diff-highlight | less
 [alias]
     st = status
+    diffc = diff --cached
