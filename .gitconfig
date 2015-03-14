@@ -13,4 +13,7 @@
     diff = diff-highlight | less
 [alias]
     st = status
-    diffc = diff --cached
+    df = diff
+    dfc = diff --cached
+    co = checkout
+    cob = checkout -b
