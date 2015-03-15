@@ -17,3 +17,4 @@
     dfc = diff --cached
     co = checkout
     cob = checkout -b
+    com = checkout master
