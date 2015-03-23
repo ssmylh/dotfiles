@@ -3,5 +3,4 @@
 * Vim
 * Git
 * bash
-* sbt
 * tmux
