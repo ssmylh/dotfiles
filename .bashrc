@@ -1,5 +1,5 @@
 export PATH=/usr/local/bin:$PATH
-export PATH=$PATH:~/bin
+export PATH=$PATH:$HOME/bin
 
 JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_HOME
