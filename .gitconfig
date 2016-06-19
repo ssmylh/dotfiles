@@ -19,3 +19,5 @@
     co = checkout
     cob = checkout -b
     com = checkout master
+[diff]
+	compactionHeuristic = true
