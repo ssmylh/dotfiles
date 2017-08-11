@@ -7,9 +7,9 @@ export PATH=$PATH:${JAVA_HOME}/bin
 
 export PATH=$HOME/Library/Haskell/bin:$PATH
 
-export EDITOR='subl -w'
+export EDITOR='code --wait'
 
-export GIT_EDITOR='subl -w'
+export GIT_EDITOR='code --wait'
 
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
